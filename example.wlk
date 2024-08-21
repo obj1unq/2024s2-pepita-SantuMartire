@@ -24,10 +24,12 @@ object manzana {
 	var madurez = 1
 	const base = 5
 	
+	//Getter
 	method madurez() {
 		return madurez
 	}
 	
+	//Setter
 	method madurez(_madurez) {
 		madurez = _madurez
 	}
